@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0727A718C5EE270011F3D3 /* NodeIdReplaceFunctorTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0727A618C5EE270011F3D3 /* NodeIdReplaceFunctorTest.cpp */; };
+		1C0F785618A3C2140053EBA3 /* ProxyNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F785518A3C2140053EBA3 /* ProxyNodeTest.cpp */; };
+		1C174316189C1DCB00AD306A /* CommentTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C174314189C1DCB00AD306A /* CommentTest.cpp */; };
+		1C174317189C1DCB00AD306A /* LocationTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C174315189C1DCB00AD306A /* LocationTest.cpp */; };
+		1C17431C189C27A100AD306A /* CommentThreadTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C17431B189C27A100AD306A /* CommentThreadTest.cpp */; };
+		1C2587DA18B61F7F0079F585 /* TimeNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C2587D918B61F7F0079F585 /* TimeNodeTest.cpp */; };
+		1C2ABA091A7798DC0080A35E /* gtest_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2ABA071A7798DC0080A35E /* gtest_main.a */; };
+		1C2ABA0A1A7798DC0080A35E /* gtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C2ABA081A7798DC0080A35E /* gtest.a */; };
+		1C3E20EA1941D1E20027F48C /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C3E20E81941D1E20027F48C /* libgtest.a */; };
+		1C4744B118F688520007C555 /* Phelib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C4744AF18F688520007C555 /* Phelib.cpp */; };
+		1C4744B318F688580007C555 /* PhelibTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C4744B218F688580007C555 /* PhelibTest.cpp */; };
+		1C62E55818CD2E2800BB70E7 /* NodeAsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C62E55718CD2E2800BB70E7 /* NodeAsyncTest.cpp */; };
+		1C62E55D18CD303700BB70E7 /* LocalNodeStoreTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C62E55C18CD303700BB70E7 /* LocalNodeStoreTest.cpp */; };
+		1C66401118F6B19600B7D479 /* Poll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C66400F18F6B19600B7D479 /* Poll.cpp */; };
+		1C66401318F6B19D00B7D479 /* PollTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C66401218F6B19D00B7D479 /* PollTest.cpp */; };
+		1C68390318886D9C008787B8 /* NodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C68390118886D9C008787B8 /* NodeTest.cpp */; };
+		1C68390818886E9F008787B8 /* TieTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C68390718886E9F008787B8 /* TieTest.cpp */; };
+		1C68390D18887923008787B8 /* NodeStoreTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C68390C18887923008787B8 /* NodeStoreTest.cpp */; };
+		1C68391218898CAD008787B8 /* MetaNodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C68391118898CAD008787B8 /* MetaNodeTest.cpp */; };
+		1C6F8713187F255E007D9C68 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8712187F255E007D9C68 /* main.cpp */; };
+		1C6F8715187F255E007D9C68 /* inoutcore.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C6F8714187F255E007D9C68 /* inoutcore.1 */; };
+		1C6F8723187F2623007D9C68 /* UserTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8721187F2623007D9C68 /* UserTest.cpp */; };
+		1C6F8735187F4E69007D9C68 /* VoteListTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F8734187F4E69007D9C68 /* VoteListTest.cpp */; };
+		1C6F873E187F906E007D9C68 /* EventTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C6F873C187F906E007D9C68 /* EventTest.cpp */; };
+		1C7193D61890739B00A886B1 /* DateSpaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C7193D51890739B00A886B1 /* DateSpaceTest.cpp */; };
+		1C8343FD18D7A05900B085C1 /* SequenceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C8343FC18D7A05900B085C1 /* SequenceTest.cpp */; };
+		1C9CB22C18EDC31400176482 /* UserSpyTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C9CB22B18EDC31400176482 /* UserSpyTest.cpp */; };
+		1CA20F5118CE34A00057FEDD /* GraphUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F1B18CE34A00057FEDD /* GraphUtil.cpp */; };
+		1CA20F5218CE34A00057FEDD /* MetaNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F1D18CE34A00057FEDD /* MetaNode.cpp */; };
+		1CA20F5318CE34A00057FEDD /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F1F18CE34A00057FEDD /* Node.cpp */; };
+		1CA20F5418CE34A00057FEDD /* NodeAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2118CE34A00057FEDD /* NodeAsync.cpp */; };
+		1CA20F5518CE34A00057FEDD /* NodeGenAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2318CE34A00057FEDD /* NodeGenAsync.cpp */; };
+		1CA20F5618CE34A00057FEDD /* NodeIdReplaceFunctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2518CE34A00057FEDD /* NodeIdReplaceFunctor.cpp */; };
+		1CA20F5718CE34A00057FEDD /* NodeStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2718CE34A00057FEDD /* NodeStore.cpp */; };
+		1CA20F5818CE34A00057FEDD /* NodeStoreAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2918CE34A00057FEDD /* NodeStoreAsync.cpp */; };
+		1CA20F5918CE34A00057FEDD /* Phenode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2B18CE34A00057FEDD /* Phenode.cpp */; };
+		1CA20F5A18CE34A00057FEDD /* PhenodeAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2D18CE34A00057FEDD /* PhenodeAsync.cpp */; };
+		1CA20F5B18CE34A00057FEDD /* Tie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F2F18CE34A00057FEDD /* Tie.cpp */; };
+		1CA20F5C18CE34A00057FEDD /* VXObserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3118CE34A00057FEDD /* VXObserver.cpp */; };
+		1CA20F5E18CE34A00057FEDD /* CommentThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3618CE34A00057FEDD /* CommentThread.cpp */; };
+		1CA20F5F18CE34A00057FEDD /* DateSpace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3818CE34A00057FEDD /* DateSpace.cpp */; };
+		1CA20F6018CE34A00057FEDD /* Event.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3A18CE34A00057FEDD /* Event.cpp */; };
+		1CA20F6118CE34A00057FEDD /* LocalNodeStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3C18CE34A00057FEDD /* LocalNodeStore.cpp */; };
+		1CA20F6218CE34A00057FEDD /* Location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F3E18CE34A00057FEDD /* Location.cpp */; };
+		1CA20F6418CE34A00057FEDD /* ProxyNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F4218CE34A00057FEDD /* ProxyNode.cpp */; };
+		1CA20F6518CE34A00057FEDD /* TimeNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F4418CE34A00057FEDD /* TimeNode.cpp */; };
+		1CA20F6618CE34A00057FEDD /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA20F4618CE34A00057FEDD /* User.cpp */; };
+		1CA29B2518A3FE8B00E2E68B /* VoteListPhenoSpyTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA29B2418A3FE8B00E2E68B /* VoteListPhenoSpyTest.cpp */; };
+		1CA4FF5D18DCA35600070976 /* GroupTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA4FF5C18DCA35600070976 /* GroupTest.cpp */; };
+		1CA5B2E318D75E72006C3F5B /* GPS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5B2E118D75E72006C3F5B /* GPS.cpp */; };
+		1CA5B2E518D75E76006C3F5B /* GPSTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CA5B2E418D75E76006C3F5B /* GPSTest.cpp */; };
+		1CAFBDCB18CA3A2B003176F2 /* NodeGenAsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFBDC918CA3A2B003176F2 /* NodeGenAsyncTest.cpp */; };
+		1CAFBDCC18CA3A2B003176F2 /* NodeStoreAsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFBDCA18CA3A2B003176F2 /* NodeStoreAsyncTest.cpp */; };
+		1CAFBDD118CA3F4F003176F2 /* UserAsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFBDD018CA3F4F003176F2 /* UserAsyncTest.cpp */; };
+		1CAFBDD618CA4072003176F2 /* PhenodeAsyncTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CAFBDD518CA4072003176F2 /* PhenodeAsyncTest.cpp */; };
+		1CC6580C18929D91001A1D0B /* PhenodeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CC6580B18929D91001A1D0B /* PhenodeTest.cpp */; };
+		1CC658111892B06C001A1D0B /* VXObserverTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CC658101892B06C001A1D0B /* VXObserverTest.cpp */; };
+		1CD9083C197BFB0A00140F56 /* Wish.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9083A197BFB0900140F56 /* Wish.cpp */; };
+		1CD9083E197BFB0F00140F56 /* WishTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CD9083D197BFB0F00140F56 /* WishTest.cpp */; };
+		1CE60EAC18A172BF0055872C /* VoteTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CE60EAB18A172BF0055872C /* VoteTest.cpp */; };
+		1CEEC0E018A11C3D001F6CE5 /* NameTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CEEC0DF18A11C3D001F6CE5 /* NameTest.cpp */; };
+		1CFBDB1B19360A5F0004B159 /* AsyncFunctor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBDB1A19360A5F0004B159 /* AsyncFunctor.cpp */; };
+		1CFBFD7019547D7400B88D2F /* Comment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD5E19547D7400B88D2F /* Comment.cpp */; };
+		1CFBFD7119547D7400B88D2F /* Group.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6019547D7400B88D2F /* Group.cpp */; };
+		1CFBFD7219547D7400B88D2F /* Name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6219547D7400B88D2F /* Name.cpp */; };
+		1CFBFD7319547D7400B88D2F /* Sequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6419547D7400B88D2F /* Sequence.cpp */; };
+		1CFBFD7419547D7400B88D2F /* UserAsync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6619547D7400B88D2F /* UserAsync.cpp */; };
+		1CFBFD7519547D7400B88D2F /* UserSpy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6819547D7400B88D2F /* UserSpy.cpp */; };
+		1CFBFD7619547D7400B88D2F /* Vote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6A19547D7400B88D2F /* Vote.cpp */; };
+		1CFBFD7719547D7400B88D2F /* VoteList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6C19547D7400B88D2F /* VoteList.cpp */; };
+		1CFBFD7819547D7400B88D2F /* VoteListPhenoSpy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1CFBFD6E19547D7400B88D2F /* VoteListPhenoSpy.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C6F870D187F255E007D9C68 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				1C6F8715187F255E007D9C68 /* inoutcore.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C0727A618C5EE270011F3D3 /* NodeIdReplaceFunctorTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeIdReplaceFunctorTest.cpp; sourceTree = "<group>"; };
+		1C0F785518A3C2140053EBA3 /* ProxyNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProxyNodeTest.cpp; sourceTree = "<group>"; };
+		1C174314189C1DCB00AD306A /* CommentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommentTest.cpp; sourceTree = "<group>"; };
+		1C174315189C1DCB00AD306A /* LocationTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocationTest.cpp; sourceTree = "<group>"; };
+		1C17431B189C27A100AD306A /* CommentThreadTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommentThreadTest.cpp; sourceTree = "<group>"; };
+		1C2587D918B61F7F0079F585 /* TimeNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeNodeTest.cpp; sourceTree = "<group>"; };
+		1C2ABA071A7798DC0080A35E /* gtest_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = gtest_main.a; path = ../../../../../../usr/local/lib/gtest_main.a; sourceTree = "<group>"; };
+		1C2ABA081A7798DC0080A35E /* gtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = gtest.a; path = ../../../../../../usr/local/lib/gtest.a; sourceTree = "<group>"; };
+		1C3E20E81941D1E20027F48C /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libgtest.a; sourceTree = "<group>"; };
+		1C3E20E91941D1E20027F48C /* vixac_imports.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vixac_imports.h; sourceTree = "<group>"; };
+		1C4744AF18F688520007C555 /* Phelib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Phelib.cpp; sourceTree = "<group>"; };
+		1C4744B018F688520007C555 /* Phelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phelib.h; sourceTree = "<group>"; };
+		1C4744B218F688580007C555 /* PhelibTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhelibTest.cpp; sourceTree = "<group>"; };
+		1C62E55718CD2E2800BB70E7 /* NodeAsyncTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeAsyncTest.cpp; sourceTree = "<group>"; };
+		1C62E55C18CD303700BB70E7 /* LocalNodeStoreTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalNodeStoreTest.cpp; sourceTree = "<group>"; };
+		1C66400F18F6B19600B7D479 /* Poll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Poll.cpp; sourceTree = "<group>"; };
+		1C66401018F6B19600B7D479 /* Poll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poll.h; sourceTree = "<group>"; };
+		1C66401218F6B19D00B7D479 /* PollTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PollTest.cpp; sourceTree = "<group>"; };
+		1C68390118886D9C008787B8 /* NodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeTest.cpp; sourceTree = "<group>"; };
+		1C68390718886E9F008787B8 /* TieTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TieTest.cpp; sourceTree = "<group>"; };
+		1C68390C18887923008787B8 /* NodeStoreTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeStoreTest.cpp; sourceTree = "<group>"; };
+		1C68391118898CAD008787B8 /* MetaNodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetaNodeTest.cpp; sourceTree = "<group>"; };
+		1C6F870F187F255E007D9C68 /* inoutcore */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = inoutcore; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C6F8712187F255E007D9C68 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1C6F8714187F255E007D9C68 /* inoutcore.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = inoutcore.1; sourceTree = "<group>"; };
+		1C6F8721187F2623007D9C68 /* UserTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserTest.cpp; sourceTree = "<group>"; };
+		1C6F8734187F4E69007D9C68 /* VoteListTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoteListTest.cpp; sourceTree = "<group>"; };
+		1C6F873C187F906E007D9C68 /* EventTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EventTest.cpp; sourceTree = "<group>"; };
+		1C7193D51890739B00A886B1 /* DateSpaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateSpaceTest.cpp; sourceTree = "<group>"; };
+		1C8343FC18D7A05900B085C1 /* SequenceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SequenceTest.cpp; sourceTree = "<group>"; };
+		1C9CB22B18EDC31400176482 /* UserSpyTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserSpyTest.cpp; sourceTree = "<group>"; };
+		1CA20F1A18CE34A00057FEDD /* AsyncFunctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncFunctor.h; sourceTree = "<group>"; };
+		1CA20F1B18CE34A00057FEDD /* GraphUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphUtil.cpp; sourceTree = "<group>"; };
+		1CA20F1C18CE34A00057FEDD /* GraphUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphUtil.h; sourceTree = "<group>"; };
+		1CA20F1D18CE34A00057FEDD /* MetaNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MetaNode.cpp; sourceTree = "<group>"; };
+		1CA20F1E18CE34A00057FEDD /* MetaNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaNode.h; sourceTree = "<group>"; };
+		1CA20F1F18CE34A00057FEDD /* Node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		1CA20F2018CE34A00057FEDD /* Node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		1CA20F2118CE34A00057FEDD /* NodeAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeAsync.cpp; sourceTree = "<group>"; };
+		1CA20F2218CE34A00057FEDD /* NodeAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeAsync.h; sourceTree = "<group>"; };
+		1CA20F2318CE34A00057FEDD /* NodeGenAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeGenAsync.cpp; sourceTree = "<group>"; };
+		1CA20F2418CE34A00057FEDD /* NodeGenAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeGenAsync.h; sourceTree = "<group>"; };
+		1CA20F2518CE34A00057FEDD /* NodeIdReplaceFunctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeIdReplaceFunctor.cpp; sourceTree = "<group>"; };
+		1CA20F2618CE34A00057FEDD /* NodeIdReplaceFunctor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeIdReplaceFunctor.h; sourceTree = "<group>"; };
+		1CA20F2718CE34A00057FEDD /* NodeStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeStore.cpp; sourceTree = "<group>"; };
+		1CA20F2818CE34A00057FEDD /* NodeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeStore.h; sourceTree = "<group>"; };
+		1CA20F2918CE34A00057FEDD /* NodeStoreAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeStoreAsync.cpp; sourceTree = "<group>"; };
+		1CA20F2A18CE34A00057FEDD /* NodeStoreAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeStoreAsync.h; sourceTree = "<group>"; };
+		1CA20F2B18CE34A00057FEDD /* Phenode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Phenode.cpp; sourceTree = "<group>"; };
+		1CA20F2C18CE34A00057FEDD /* Phenode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Phenode.h; sourceTree = "<group>"; };
+		1CA20F2D18CE34A00057FEDD /* PhenodeAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhenodeAsync.cpp; sourceTree = "<group>"; };
+		1CA20F2E18CE34A00057FEDD /* PhenodeAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhenodeAsync.h; sourceTree = "<group>"; };
+		1CA20F2F18CE34A00057FEDD /* Tie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Tie.cpp; sourceTree = "<group>"; };
+		1CA20F3018CE34A00057FEDD /* Tie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tie.h; sourceTree = "<group>"; };
+		1CA20F3118CE34A00057FEDD /* VXObserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VXObserver.cpp; sourceTree = "<group>"; };
+		1CA20F3218CE34A00057FEDD /* VXObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXObserver.h; sourceTree = "<group>"; };
+		1CA20F3618CE34A00057FEDD /* CommentThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommentThread.cpp; sourceTree = "<group>"; };
+		1CA20F3718CE34A00057FEDD /* CommentThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentThread.h; sourceTree = "<group>"; };
+		1CA20F3818CE34A00057FEDD /* DateSpace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DateSpace.cpp; sourceTree = "<group>"; };
+		1CA20F3918CE34A00057FEDD /* DateSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateSpace.h; sourceTree = "<group>"; };
+		1CA20F3A18CE34A00057FEDD /* Event.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Event.cpp; sourceTree = "<group>"; };
+		1CA20F3B18CE34A00057FEDD /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		1CA20F3C18CE34A00057FEDD /* LocalNodeStore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalNodeStore.cpp; sourceTree = "<group>"; };
+		1CA20F3D18CE34A00057FEDD /* LocalNodeStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNodeStore.h; sourceTree = "<group>"; };
+		1CA20F3E18CE34A00057FEDD /* Location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Location.cpp; sourceTree = "<group>"; };
+		1CA20F3F18CE34A00057FEDD /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		1CA20F4218CE34A00057FEDD /* ProxyNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ProxyNode.cpp; sourceTree = "<group>"; };
+		1CA20F4318CE34A00057FEDD /* ProxyNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProxyNode.h; sourceTree = "<group>"; };
+		1CA20F4418CE34A00057FEDD /* TimeNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeNode.cpp; sourceTree = "<group>"; };
+		1CA20F4518CE34A00057FEDD /* TimeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeNode.h; sourceTree = "<group>"; };
+		1CA20F4618CE34A00057FEDD /* User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		1CA20F4718CE34A00057FEDD /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		1CA29B2418A3FE8B00E2E68B /* VoteListPhenoSpyTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoteListPhenoSpyTest.cpp; sourceTree = "<group>"; };
+		1CA4FF5C18DCA35600070976 /* GroupTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GroupTest.cpp; sourceTree = "<group>"; };
+		1CA5B2E118D75E72006C3F5B /* GPS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPS.cpp; sourceTree = "<group>"; };
+		1CA5B2E218D75E72006C3F5B /* GPS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPS.h; sourceTree = "<group>"; };
+		1CA5B2E418D75E76006C3F5B /* GPSTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GPSTest.cpp; sourceTree = "<group>"; };
+		1CAFBDC918CA3A2B003176F2 /* NodeGenAsyncTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeGenAsyncTest.cpp; sourceTree = "<group>"; };
+		1CAFBDCA18CA3A2B003176F2 /* NodeStoreAsyncTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NodeStoreAsyncTest.cpp; sourceTree = "<group>"; };
+		1CAFBDD018CA3F4F003176F2 /* UserAsyncTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserAsyncTest.cpp; sourceTree = "<group>"; };
+		1CAFBDD518CA4072003176F2 /* PhenodeAsyncTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhenodeAsyncTest.cpp; sourceTree = "<group>"; };
+		1CC6580B18929D91001A1D0B /* PhenodeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PhenodeTest.cpp; sourceTree = "<group>"; };
+		1CC658101892B06C001A1D0B /* VXObserverTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VXObserverTest.cpp; sourceTree = "<group>"; };
+		1CD9083A197BFB0900140F56 /* Wish.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Wish.cpp; path = vote_src/Wish.cpp; sourceTree = "<group>"; };
+		1CD9083B197BFB0A00140F56 /* Wish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wish.h; path = vote_src/Wish.h; sourceTree = "<group>"; };
+		1CD9083D197BFB0F00140F56 /* WishTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WishTest.cpp; sourceTree = "<group>"; };
+		1CE60EAB18A172BF0055872C /* VoteTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoteTest.cpp; sourceTree = "<group>"; };
+		1CEEC0DF18A11C3D001F6CE5 /* NameTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NameTest.cpp; sourceTree = "<group>"; };
+		1CFBDB1A19360A5F0004B159 /* AsyncFunctor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AsyncFunctor.cpp; sourceTree = "<group>"; };
+		1CFBFD5E19547D7400B88D2F /* Comment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Comment.cpp; sourceTree = "<group>"; };
+		1CFBFD5F19547D7400B88D2F /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		1CFBFD6019547D7400B88D2F /* Group.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Group.cpp; sourceTree = "<group>"; };
+		1CFBFD6119547D7400B88D2F /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		1CFBFD6219547D7400B88D2F /* Name.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Name.cpp; sourceTree = "<group>"; };
+		1CFBFD6319547D7400B88D2F /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		1CFBFD6419547D7400B88D2F /* Sequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sequence.cpp; sourceTree = "<group>"; };
+		1CFBFD6519547D7400B88D2F /* Sequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sequence.h; sourceTree = "<group>"; };
+		1CFBFD6619547D7400B88D2F /* UserAsync.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserAsync.cpp; sourceTree = "<group>"; };
+		1CFBFD6719547D7400B88D2F /* UserAsync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserAsync.h; sourceTree = "<group>"; };
+		1CFBFD6819547D7400B88D2F /* UserSpy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserSpy.cpp; sourceTree = "<group>"; };
+		1CFBFD6919547D7400B88D2F /* UserSpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSpy.h; sourceTree = "<group>"; };
+		1CFBFD6A19547D7400B88D2F /* Vote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vote.cpp; sourceTree = "<group>"; };
+		1CFBFD6B19547D7400B88D2F /* Vote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vote.h; sourceTree = "<group>"; };
+		1CFBFD6C19547D7400B88D2F /* VoteList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoteList.cpp; sourceTree = "<group>"; };
+		1CFBFD6D19547D7400B88D2F /* VoteList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteList.h; sourceTree = "<group>"; };
+		1CFBFD6E19547D7400B88D2F /* VoteListPhenoSpy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoteListPhenoSpy.cpp; sourceTree = "<group>"; };
+		1CFBFD6F19547D7400B88D2F /* VoteListPhenoSpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoteListPhenoSpy.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C6F870C187F255E007D9C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C2ABA0A1A7798DC0080A35E /* gtest.a in Frameworks */,
+				1C2ABA091A7798DC0080A35E /* gtest_main.a in Frameworks */,
+				1C3E20EA1941D1E20027F48C /* libgtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C3E20E61941D1E20027F48C /* vixac_imports */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E20E71941D1E20027F48C /* gtest */,
+				1C3E20E91941D1E20027F48C /* vixac_imports.h */,
+			);
+			path = vixac_imports;
+			sourceTree = "<group>";
+		};
+		1C3E20E71941D1E20027F48C /* gtest */ = {
+			isa = PBXGroup;
+			children = (
+				1C3E20E81941D1E20027F48C /* libgtest.a */,
+			);
+			path = gtest;
+			sourceTree = "<group>";
+		};
+		1C6F8706187F255E007D9C68 = {
+			isa = PBXGroup;
+			children = (
+				1C2ABA071A7798DC0080A35E /* gtest_main.a */,
+				1C2ABA081A7798DC0080A35E /* gtest.a */,
+				1C3E20E61941D1E20027F48C /* vixac_imports */,
+				1CA20F1418CE34A00057FEDD /* inout_src */,
+				1C6F8720187F2623007D9C68 /* tests */,
+				1C6F8711187F255E007D9C68 /* inoutcore */,
+				1C6F8710187F255E007D9C68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C6F8710187F255E007D9C68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F870F187F255E007D9C68 /* inoutcore */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C6F8711187F255E007D9C68 /* inoutcore */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F8712187F255E007D9C68 /* main.cpp */,
+				1C6F8714187F255E007D9C68 /* inoutcore.1 */,
+			);
+			path = inoutcore;
+			sourceTree = "<group>";
+		};
+		1C6F8720187F2623007D9C68 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9083D197BFB0F00140F56 /* WishTest.cpp */,
+				1C4744B218F688580007C555 /* PhelibTest.cpp */,
+				1C9CB22B18EDC31400176482 /* UserSpyTest.cpp */,
+				1CA4FF5C18DCA35600070976 /* GroupTest.cpp */,
+				1C8343FC18D7A05900B085C1 /* SequenceTest.cpp */,
+				1CA5B2E418D75E76006C3F5B /* GPSTest.cpp */,
+				1C62E55C18CD303700BB70E7 /* LocalNodeStoreTest.cpp */,
+				1CAFBDD518CA4072003176F2 /* PhenodeAsyncTest.cpp */,
+				1C62E55718CD2E2800BB70E7 /* NodeAsyncTest.cpp */,
+				1CAFBDC918CA3A2B003176F2 /* NodeGenAsyncTest.cpp */,
+				1CAFBDCA18CA3A2B003176F2 /* NodeStoreAsyncTest.cpp */,
+				1C0727A618C5EE270011F3D3 /* NodeIdReplaceFunctorTest.cpp */,
+				1C17431B189C27A100AD306A /* CommentThreadTest.cpp */,
+				1C174314189C1DCB00AD306A /* CommentTest.cpp */,
+				1C7193D51890739B00A886B1 /* DateSpaceTest.cpp */,
+				1C6F873C187F906E007D9C68 /* EventTest.cpp */,
+				1C174315189C1DCB00AD306A /* LocationTest.cpp */,
+				1C68391118898CAD008787B8 /* MetaNodeTest.cpp */,
+				1CEEC0DF18A11C3D001F6CE5 /* NameTest.cpp */,
+				1C68390C18887923008787B8 /* NodeStoreTest.cpp */,
+				1C68390118886D9C008787B8 /* NodeTest.cpp */,
+				1CC6580B18929D91001A1D0B /* PhenodeTest.cpp */,
+				1C0F785518A3C2140053EBA3 /* ProxyNodeTest.cpp */,
+				1C68390718886E9F008787B8 /* TieTest.cpp */,
+				1C2587D918B61F7F0079F585 /* TimeNodeTest.cpp */,
+				1C6F8721187F2623007D9C68 /* UserTest.cpp */,
+				1CAFBDD018CA3F4F003176F2 /* UserAsyncTest.cpp */,
+				1C6F8734187F4E69007D9C68 /* VoteListTest.cpp */,
+				1CA29B2418A3FE8B00E2E68B /* VoteListPhenoSpyTest.cpp */,
+				1CE60EAB18A172BF0055872C /* VoteTest.cpp */,
+				1CC658101892B06C001A1D0B /* VXObserverTest.cpp */,
+				1C66401218F6B19D00B7D479 /* PollTest.cpp */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		1CA20F1418CE34A00057FEDD /* inout_src */ = {
+			isa = PBXGroup;
+			children = (
+				1CD9083A197BFB0900140F56 /* Wish.cpp */,
+				1CD9083B197BFB0A00140F56 /* Wish.h */,
+				1CFBFD5D19547D7400B88D2F /* vote_async_src */,
+				1CA20F1918CE34A00057FEDD /* graph_src */,
+				1CA20F3318CE34A00057FEDD /* vote_src */,
+			);
+			path = inout_src;
+			sourceTree = "<group>";
+		};
+		1CA20F1918CE34A00057FEDD /* graph_src */ = {
+			isa = PBXGroup;
+			children = (
+				1CA20F1A18CE34A00057FEDD /* AsyncFunctor.h */,
+				1CFBDB1A19360A5F0004B159 /* AsyncFunctor.cpp */,
+				1CA20F1B18CE34A00057FEDD /* GraphUtil.cpp */,
+				1CA20F1C18CE34A00057FEDD /* GraphUtil.h */,
+				1CA20F1D18CE34A00057FEDD /* MetaNode.cpp */,
+				1CA20F1E18CE34A00057FEDD /* MetaNode.h */,
+				1CA20F1F18CE34A00057FEDD /* Node.cpp */,
+				1CA20F2018CE34A00057FEDD /* Node.h */,
+				1CA20F2118CE34A00057FEDD /* NodeAsync.cpp */,
+				1CA20F2218CE34A00057FEDD /* NodeAsync.h */,
+				1CA20F2318CE34A00057FEDD /* NodeGenAsync.cpp */,
+				1CA20F2418CE34A00057FEDD /* NodeGenAsync.h */,
+				1CA20F2518CE34A00057FEDD /* NodeIdReplaceFunctor.cpp */,
+				1CA20F2618CE34A00057FEDD /* NodeIdReplaceFunctor.h */,
+				1CA20F2718CE34A00057FEDD /* NodeStore.cpp */,
+				1CA20F2818CE34A00057FEDD /* NodeStore.h */,
+				1CA20F2918CE34A00057FEDD /* NodeStoreAsync.cpp */,
+				1CA20F2A18CE34A00057FEDD /* NodeStoreAsync.h */,
+				1CA20F2B18CE34A00057FEDD /* Phenode.cpp */,
+				1CA20F2C18CE34A00057FEDD /* Phenode.h */,
+				1CA20F2D18CE34A00057FEDD /* PhenodeAsync.cpp */,
+				1CA20F2E18CE34A00057FEDD /* PhenodeAsync.h */,
+				1CA20F2F18CE34A00057FEDD /* Tie.cpp */,
+				1CA20F3018CE34A00057FEDD /* Tie.h */,
+				1CA20F3118CE34A00057FEDD /* VXObserver.cpp */,
+				1CA20F3218CE34A00057FEDD /* VXObserver.h */,
+			);
+			path = graph_src;
+			sourceTree = "<group>";
+		};
+		1CA20F3318CE34A00057FEDD /* vote_src */ = {
+			isa = PBXGroup;
+			children = (
+				1C66400F18F6B19600B7D479 /* Poll.cpp */,
+				1C66401018F6B19600B7D479 /* Poll.h */,
+				1C4744AF18F688520007C555 /* Phelib.cpp */,
+				1C4744B018F688520007C555 /* Phelib.h */,
+				1CA5B2E118D75E72006C3F5B /* GPS.cpp */,
+				1CA5B2E218D75E72006C3F5B /* GPS.h */,
+				1CA20F3618CE34A00057FEDD /* CommentThread.cpp */,
+				1CA20F3718CE34A00057FEDD /* CommentThread.h */,
+				1CA20F3818CE34A00057FEDD /* DateSpace.cpp */,
+				1CA20F3918CE34A00057FEDD /* DateSpace.h */,
+				1CA20F3A18CE34A00057FEDD /* Event.cpp */,
+				1CA20F3B18CE34A00057FEDD /* Event.h */,
+				1CA20F3C18CE34A00057FEDD /* LocalNodeStore.cpp */,
+				1CA20F3D18CE34A00057FEDD /* LocalNodeStore.h */,
+				1CA20F3E18CE34A00057FEDD /* Location.cpp */,
+				1CA20F3F18CE34A00057FEDD /* Location.h */,
+				1CA20F4218CE34A00057FEDD /* ProxyNode.cpp */,
+				1CA20F4318CE34A00057FEDD /* ProxyNode.h */,
+				1CA20F4418CE34A00057FEDD /* TimeNode.cpp */,
+				1CA20F4518CE34A00057FEDD /* TimeNode.h */,
+				1CA20F4618CE34A00057FEDD /* User.cpp */,
+				1CA20F4718CE34A00057FEDD /* User.h */,
+			);
+			path = vote_src;
+			sourceTree = "<group>";
+		};
+		1CFBFD5D19547D7400B88D2F /* vote_async_src */ = {
+			isa = PBXGroup;
+			children = (
+				1CFBFD5E19547D7400B88D2F /* Comment.cpp */,
+				1CFBFD5F19547D7400B88D2F /* Comment.h */,
+				1CFBFD6019547D7400B88D2F /* Group.cpp */,
+				1CFBFD6119547D7400B88D2F /* Group.h */,
+				1CFBFD6219547D7400B88D2F /* Name.cpp */,
+				1CFBFD6319547D7400B88D2F /* Name.h */,
+				1CFBFD6419547D7400B88D2F /* Sequence.cpp */,
+				1CFBFD6519547D7400B88D2F /* Sequence.h */,
+				1CFBFD6619547D7400B88D2F /* UserAsync.cpp */,
+				1CFBFD6719547D7400B88D2F /* UserAsync.h */,
+				1CFBFD6819547D7400B88D2F /* UserSpy.cpp */,
+				1CFBFD6919547D7400B88D2F /* UserSpy.h */,
+				1CFBFD6A19547D7400B88D2F /* Vote.cpp */,
+				1CFBFD6B19547D7400B88D2F /* Vote.h */,
+				1CFBFD6C19547D7400B88D2F /* VoteList.cpp */,
+				1CFBFD6D19547D7400B88D2F /* VoteList.h */,
+				1CFBFD6E19547D7400B88D2F /* VoteListPhenoSpy.cpp */,
+				1CFBFD6F19547D7400B88D2F /* VoteListPhenoSpy.h */,
+			);
+			path = vote_async_src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C6F870E187F255E007D9C68 /* inoutcore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C6F8718187F255E007D9C68 /* Build configuration list for PBXNativeTarget "inoutcore" */;
+			buildPhases = (
+				1C6F870B187F255E007D9C68 /* Sources */,
+				1C6F870C187F255E007D9C68 /* Frameworks */,
+				1C6F870D187F255E007D9C68 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inoutcore;
+			productName = inoutcore;
+			productReference = 1C6F870F187F255E007D9C68 /* inoutcore */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C6F8707187F255E007D9C68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = vixac;
+			};
+			buildConfigurationList = 1C6F870A187F255E007D9C68 /* Build configuration list for PBXProject "inoutcore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1C6F8706187F255E007D9C68;
+			productRefGroup = 1C6F8710187F255E007D9C68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C6F870E187F255E007D9C68 /* inoutcore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C6F870B187F255E007D9C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C66401318F6B19D00B7D479 /* PollTest.cpp in Sources */,
+				1CFBFD7019547D7400B88D2F /* Comment.cpp in Sources */,
+				1CA20F6118CE34A00057FEDD /* LocalNodeStore.cpp in Sources */,
+				1CAFBDCC18CA3A2B003176F2 /* NodeStoreAsyncTest.cpp in Sources */,
+				1C62E55818CD2E2800BB70E7 /* NodeAsyncTest.cpp in Sources */,
+				1CA20F5418CE34A00057FEDD /* NodeAsync.cpp in Sources */,
+				1CFBFD7319547D7400B88D2F /* Sequence.cpp in Sources */,
+				1C68390318886D9C008787B8 /* NodeTest.cpp in Sources */,
+				1CEEC0E018A11C3D001F6CE5 /* NameTest.cpp in Sources */,
+				1CA20F5618CE34A00057FEDD /* NodeIdReplaceFunctor.cpp in Sources */,
+				1C17431C189C27A100AD306A /* CommentThreadTest.cpp in Sources */,
+				1C7193D61890739B00A886B1 /* DateSpaceTest.cpp in Sources */,
+				1CA20F5918CE34A00057FEDD /* Phenode.cpp in Sources */,
+				1CAFBDD618CA4072003176F2 /* PhenodeAsyncTest.cpp in Sources */,
+				1C6F873E187F906E007D9C68 /* EventTest.cpp in Sources */,
+				1C4744B118F688520007C555 /* Phelib.cpp in Sources */,
+				1CD9083C197BFB0A00140F56 /* Wish.cpp in Sources */,
+				1C2587DA18B61F7F0079F585 /* TimeNodeTest.cpp in Sources */,
+				1CA20F5B18CE34A00057FEDD /* Tie.cpp in Sources */,
+				1CA20F5C18CE34A00057FEDD /* VXObserver.cpp in Sources */,
+				1CA20F5518CE34A00057FEDD /* NodeGenAsync.cpp in Sources */,
+				1CFBFD7419547D7400B88D2F /* UserAsync.cpp in Sources */,
+				1CFBFD7219547D7400B88D2F /* Name.cpp in Sources */,
+				1C68390818886E9F008787B8 /* TieTest.cpp in Sources */,
+				1CFBFD7719547D7400B88D2F /* VoteList.cpp in Sources */,
+				1CFBFD7519547D7400B88D2F /* UserSpy.cpp in Sources */,
+				1CA20F5118CE34A00057FEDD /* GraphUtil.cpp in Sources */,
+				1C6F8735187F4E69007D9C68 /* VoteListTest.cpp in Sources */,
+				1CA20F5A18CE34A00057FEDD /* PhenodeAsync.cpp in Sources */,
+				1C62E55D18CD303700BB70E7 /* LocalNodeStoreTest.cpp in Sources */,
+				1C9CB22C18EDC31400176482 /* UserSpyTest.cpp in Sources */,
+				1CA20F6418CE34A00057FEDD /* ProxyNode.cpp in Sources */,
+				1C6F8713187F255E007D9C68 /* main.cpp in Sources */,
+				1C174317189C1DCB00AD306A /* LocationTest.cpp in Sources */,
+				1CA20F5718CE34A00057FEDD /* NodeStore.cpp in Sources */,
+				1C174316189C1DCB00AD306A /* CommentTest.cpp in Sources */,
+				1CA5B2E518D75E76006C3F5B /* GPSTest.cpp in Sources */,
+				1C68390D18887923008787B8 /* NodeStoreTest.cpp in Sources */,
+				1CD9083E197BFB0F00140F56 /* WishTest.cpp in Sources */,
+				1C6F8723187F2623007D9C68 /* UserTest.cpp in Sources */,
+				1C0F785618A3C2140053EBA3 /* ProxyNodeTest.cpp in Sources */,
+				1CA20F5318CE34A00057FEDD /* Node.cpp in Sources */,
+				1CFBDB1B19360A5F0004B159 /* AsyncFunctor.cpp in Sources */,
+				1CA20F5E18CE34A00057FEDD /* CommentThread.cpp in Sources */,
+				1CA20F5F18CE34A00057FEDD /* DateSpace.cpp in Sources */,
+				1CA20F6018CE34A00057FEDD /* Event.cpp in Sources */,
+				1C66401118F6B19600B7D479 /* Poll.cpp in Sources */,
+				1CE60EAC18A172BF0055872C /* VoteTest.cpp in Sources */,
+				1CA29B2518A3FE8B00E2E68B /* VoteListPhenoSpyTest.cpp in Sources */,
+				1CFBFD7819547D7400B88D2F /* VoteListPhenoSpy.cpp in Sources */,
+				1CFBFD7119547D7400B88D2F /* Group.cpp in Sources */,
+				1C8343FD18D7A05900B085C1 /* SequenceTest.cpp in Sources */,
+				1CA20F6518CE34A00057FEDD /* TimeNode.cpp in Sources */,
+				1CA20F6218CE34A00057FEDD /* Location.cpp in Sources */,
+				1CA20F5218CE34A00057FEDD /* MetaNode.cpp in Sources */,
+				1C4744B318F688580007C555 /* PhelibTest.cpp in Sources */,
+				1CA20F5818CE34A00057FEDD /* NodeStoreAsync.cpp in Sources */,
+				1CFBFD7619547D7400B88D2F /* Vote.cpp in Sources */,
+				1C0727A718C5EE270011F3D3 /* NodeIdReplaceFunctorTest.cpp in Sources */,
+				1CC658111892B06C001A1D0B /* VXObserverTest.cpp in Sources */,
+				1CA20F6618CE34A00057FEDD /* User.cpp in Sources */,
+				1CA5B2E318D75E72006C3F5B /* GPS.cpp in Sources */,
+				1CAFBDCB18CA3A2B003176F2 /* NodeGenAsyncTest.cpp in Sources */,
+				1CA4FF5D18DCA35600070976 /* GroupTest.cpp in Sources */,
+				1C68391218898CAD008787B8 /* MetaNodeTest.cpp in Sources */,
+				1CC6580C18929D91001A1D0B /* PhenodeTest.cpp in Sources */,
+				1CAFBDD118CA3F4F003176F2 /* UserAsyncTest.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1C6F8716187F255E007D9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/vic/google_drive/vic_drive/using/packages/googletest-read-only/include/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1C6F8717187F255E007D9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/vic/google_drive/vic_drive/using/packages/googletest-read-only/include/",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1C6F8719187F255E007D9C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = (
+					"$(inherited)",
+					/Volumes/VERTEX_ZERO/google_drive/vic_drive/using/packages/gtestFrameWorkSearchPath,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vic/code/project/inout/vixac_imports/gtest,
+					"$(PROJECT_DIR)/vixac_imports/gtest",
+				);
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = (
+					"-DGTEST_USE_OWN_TR1_TUPLE=1",
+					"$(OTHER_CFLAGS)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1C6F871A187F255E007D9C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/VERTEX_ZERO/google_drive/vic_drive/using/packages/gtestFrameWorkSearchPath,
+				);
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/vic/code/project/inout/vixac_imports/gtest,
+					"$(PROJECT_DIR)/vixac_imports/gtest",
+				);
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C6F870A187F255E007D9C68 /* Build configuration list for PBXProject "inoutcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F8716187F255E007D9C68 /* Debug */,
+				1C6F8717187F255E007D9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C6F8718187F255E007D9C68 /* Build configuration list for PBXNativeTarget "inoutcore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C6F8719187F255E007D9C68 /* Debug */,
+				1C6F871A187F255E007D9C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C6F8707187F255E007D9C68 /* Project object */;
+}
